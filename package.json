@@ -1,0 +1,19 @@
+{
+  "name": "iron-protocol",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 3002",
+    "build": "vite build --base ./",
+    "preview": "vite preview --host 0.0.0.0 --port 3002"
+  },
+  "dependencies": {
+    "@fontsource/rajdhani": "^5.2.5",
+    "@fontsource/teko": "^5.2.5",
+    "three": "^0.187.0"
+  },
+  "devDependencies": {
+    "vite": "^7.0.0"
+  }
+}

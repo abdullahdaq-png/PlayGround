@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <meta name="theme-color" content="#07090c" />
+    <title>IRON PROTOCOL — 5v5 Online FPS</title>
+    <meta name="description" content="IRON PROTOCOL: 10 harita, 4 operatör, 5v5 online taktik FPS. Maç ödülleriyle silah skinleri aç." />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%230a0d12'/%3E%3Crect x='14' y='14' width='36' height='36' fill='none' stroke='%23ff6b2c' stroke-width='5'/%3E%3Cpath d='M25 23h14M32 23v18' stroke='%23ff6b2c' stroke-width='5'/%3E%3C/svg%3E" />
+  </head>
+  <body>
+    <div id="app">
+      <canvas id="scene"></canvas>
+      <div id="vignette"></div>
+      <div id="scanlines"></div>
+      <div id="ui"></div>
+      <div id="touch-controls" aria-hidden="true">
+        <div id="stick-zone"><div id="stick-base"><div id="stick-knob"></div></div></div>
+        <div class="touch-cluster">
+          <button class="tbtn" data-touch="reload">⟳</button>
+          <button class="tbtn" data-touch="ability">✦</button>
+          <button class="tbtn" data-touch="jump">⤒</button>
+        </div>
+        <div class="touch-cluster right">
+          <button class="tbtn fire" data-touch="fire">●</button>
+          <button class="tbtn" data-touch="ads">◎</button>
+          <button class="tbtn" data-touch="swap">⇄</button>
+        </div>
+      </div>
+      <div id="rotate-hint">En iyi deneyim için telefonu yatay tut.</div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
